@@ -8,10 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+      <script></script>
+
     <div
       class="
         flex-row
@@ -32,15 +35,19 @@
             type="text"
             placeholder="City"
           />
-          <button class="btn btn-info btn-block">Search</button>
+          <button id="weatherSearch" class="btn btn-info btn-block">Search</button>
         </form>
 
       <div class="col-12 col-md-9 p-3 text-light">
-        <h2>Showing results for <span id="result-text"></span></h2>
+        <h2>Showing results for <span id="#results"></span></h2>
         <div id="result-content"></div>
       </div>
     </div>
+    <div><script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
+        </div>
 
-    <script></script>
+    <script>"javascript-weather.js"</script>
   </body>
 </html>
